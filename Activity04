@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Top 10 Favorite Anime</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card{
+            background-color: white;
+            border: 2px solid pink;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .card img{
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+        }
+
+        .card h3{
+            color: darkred;
+        }
+
+        .card p{
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>MY TOP 10 FAVORITE ANIME</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Top 1</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Naruto_Anime.jpg">
+            <p><b>Naruto</b><br>Popular ninja anime full of action and friendship.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 2</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/One_Piece_Logo.png">
+            <p><b>One Piece</b><br>An adventure anime about pirates searching for treasure.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 3</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Attack_on_Titan_Season_1.jpg">
+            <p><b>Attack on Titan</b><br>Humans fight giant Titans to survive.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 4</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/72/Demon_Slayer_Kimetsu_no_Yaiba_logo.svg">
+            <p><b>Demon Slayer</b><br>A boy fights demons to save his sister.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 5</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Jujutsu_kaisen.jpg">
+            <p><b>Jujutsu Kaisen</b><br>Students battle powerful curses using magic.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 6</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Death_Note_Vol_1.jpg">
+            <p><b>Death Note</b><br>A smart student finds a deadly notebook.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 7</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/46/Dragon_Ball_Super_Key_visual.jpg">
+            <p><b>Dragon Ball</b><br>Goku protects Earth with powerful battles.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 8</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/95/My_Hero_Academia_Season_1.jpg">
+            <p><b>My Hero Academia</b><br>Young heroes train to save the world.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 9</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Tokyo_Ghoul_volume_1_cover.jpg">
+            <p><b>Tokyo Ghoul</b><br>A student becomes half-human and half-ghoul.</p>
+        </div>
+
+        <div class="card">
+            <h3>Top 10</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/52/Spy_x_Family_volume_1_cover.jpg">
+            <p><b>Spy x Family</b><br>A funny family with secret identities.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
