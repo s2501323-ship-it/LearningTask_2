@@ -1,0 +1,25 @@
+.header
+{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    height: 300px;
+}
+
+.main-navigation
+{
+    background-color: #F54927;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.main-navigation a
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.main-navigation a:hover
+{
+    text-decoration: none;
+}
