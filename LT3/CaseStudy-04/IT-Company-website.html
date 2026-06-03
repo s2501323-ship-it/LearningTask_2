@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Green Valley IT Company</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #e7e7e7;
+            background-color: #f4f7f6;
+        }
+
+        
+        header {
+            background: linear-gradient(135deg, #ffffff, #00ffc8);
+            color: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #f5f5f5;
+            font-weight: 300;
+        }
+
+        nav {
+            background-color: #00e6f7;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            display: inline-block;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #00bae9;
+            color: #ffffff;
+        }
+
+       
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        section h2 {
+            color: #00c8fa;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 8px;
+        }
+        section h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 4px;
+            background-color: #009bf5;
+            border-radius: 2px;
+        }
+        section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #555555;
+        }
+
+       
+        section img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        ul {
+            list-style-position: inside;
+            margin-bottom: 20px;
+        }
+        ul li {
+            font-size: 1.1rem;
+            padding: 8px 0;
+            color: #444444;
+            border-bottom: 1px dashed #e0e0e0;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .gallery h2 {
+            grid-column: 1 / -1;
+        }
+        .gallery img {
+            margin-top: 0;
+            height: 220px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+       
+        footer {
+            background-color: #111827;
+            color: #9ca3af;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Green Valley IT Company</h1>
+    <p>Innovating Today, Leading Tomorrow</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#mission">Mission & Vision</a>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>
+        Welcome to Green Valley IT Company. We provide quality IT
+        services and help businesses develop innovative digital solutions.
+    </p>
+    <img src="GettyImages-943067460-28883b8136b24330932cd4e2855c2508.jpg" alt="IT Company">
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Green Valley IT Company is committed to delivering excellent
+        technology services. We help organizations improve efficiency,
+        security, and growth through modern IT solutions.
+    </p>
+</section>
+
+<section id="mission">
+    <h2>Mission</h2>
+    <p>
+        To provide reliable and innovative IT services that help
+        businesses succeed in the digital world.
+    </p>
+
+    <h2>Vision</h2>
+    <p>
+        To become a trusted leader in information technology,
+        known for excellence, integrity, and innovation.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>Cloud Migration Solutions</li>
+        <li>Custom Software Development</li>
+        <li>Cybersecurity Upgrades</li>
+        <li>Data Analytics Systems</li>
+        <li>Website Design and Development</li>
+    </ul>
+    <img src="Top-15-IT-Companies-in-the-Philippines.JPG" alt="Projects">
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="List-of-IT-Companies-in-Pune-1.png" alt="Office">
+    <img src="software-companies.jpg" alt="Team">
+    <img src="IT-Company.jpg" alt="Technology">
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> greenvalleyit@gmail.com</p>
+    <p><strong>Phone:</strong> +63 912 345 6789</p>
+    <p><strong>Address:</strong> Bacolod City, Philippines</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Green Valley IT Company. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Item Detail</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo-oval">Image Logo</div>
+        <div class="banner">Image of the restaurant</div>
+    </div>
+
+    <div class="navbar">
+        <a href="Home.html">home</a>
+        <a href="Branches.html">Branches</a>
+        <a href="Restaurant-website.html">Gallery</a>
+        <a href="Customerfeedback.html">Customer feedback</a>
+        <a href="ContactUs.html">Contact Us</a>
+    </div>
+
+    <div class="split-view">
+        <div class="split-left">
+            <h3>Image of the menu</h3>
+            <img id="foodImg" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500" alt="Food Image">
+        </div>
+        <div class="split-right">
+            <h3>Attached information about of the menu</h3>
+            <h2 id="foodTitle">Menu Item Selected</h2>
+            <p>Prepared fresh daily using fine regional ingredients, signature red chili spices, and vibrant orange zests.</p>
+            <p><strong>Price:</strong> $14.99</p>
+            <br>
+            <a href="Restaurant-website.html" style="color: #D32F2F; font-weight: bold;">← Back to Menu Grid</a>
+        </div>
+    </div>
+
+    <div class="footer">Footer</div>
+
+    <script>
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const itemNumber = urlParams.get('item') || "1";
+        document.getElementById('foodTitle').innerText = "Item Number " + itemNumber;
+    </script>
+</body>
+</html>
